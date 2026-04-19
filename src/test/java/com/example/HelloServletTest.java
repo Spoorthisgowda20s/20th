@@ -16,7 +16,7 @@ public class HelloServletTest {
 	HttpServletRequest req = mock(HttpServletRequest.class);
 
 	StringWriter sw = new StringWriter();
-	when(res.getwriter()).thenReturn(new PrintWriter(sw));
+	when(res.getWriter()).thenReturn(new PrintWriter(sw));
 
 	s.doGet(req, res);
 
