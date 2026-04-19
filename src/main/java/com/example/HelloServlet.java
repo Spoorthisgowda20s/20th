@@ -6,7 +6,7 @@ import javax.servlet.http.*;
 
 public class HelloServlet extends HttpServlet {
 
-	protected void doGet(HttpservletRequest req, HttpServletResponse res) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 
 	res.setContentType("text/html");
 	res.getWriter().println("<h1>github->jenkins->docker->tomcat</h1>");
